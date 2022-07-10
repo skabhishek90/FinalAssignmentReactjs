@@ -1,0 +1,19 @@
+.projectcard{   
+    border-radius: 13px;
+    box-shadow: 1px 1px 16px rgba(0,0,0,0.3);
+    background-color:white;
+    color: rgb(22, 22, 22);   
+    height:40vh;
+    width:60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: auto;
+    margin-top:40px;
+    padding:15px 10px;
+
+}
+img{
+    width : 100%;
+}

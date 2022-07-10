@@ -1,0 +1,31 @@
+.name{
+    height:100vh;
+    align-items:center;
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+    margin:auto;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.namecontainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height:40%
+}
+.name h1{
+    font-size:15vh;
+    font-weight: 200;
+    opacity: 0;
+    animation:fadeup 3s 1s 1 forwards;
+
+}
+.name h2{
+    font-size:5vh;
+    font-weight: 200;
+    opacity: 0;
+    animation:fadeup 3s 2s 1 forwards;
+
+}

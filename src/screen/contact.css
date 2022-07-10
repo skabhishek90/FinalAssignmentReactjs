@@ -1,0 +1,41 @@
+.contact{
+    position: relative;
+    height: 100vh;
+    width: 80vw;
+    z-index: 20;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact h1{
+    font-size:5vw;
+    font-weight:300
+}
+.contacttext{
+    font-size:25px;
+    position:relative;
+}
+.or{
+    font-size:40px;
+    position: relative;
+}
+.contact img{
+    height: 50px;
+    width: 50px;
+}
+.links{
+    display: flex;
+    position:relative;
+    margin:auto;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pictu{
+    width: 500px;
+    position:absolute;
+    right: 10px;
+}

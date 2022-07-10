@@ -1,0 +1,13 @@
+.App {
+  margin:auto;
+  height:800vh;
+  background:-webkit-linear-gradient(120deg,#8739f9,#00b7ff);
+  color:aliceblue;
+}
+.filler{
+  height:400vh;
+}
+.logo{
+  width: 40px;
+  margin-right: 60px;
+}

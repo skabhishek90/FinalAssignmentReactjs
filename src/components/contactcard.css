@@ -1,0 +1,67 @@
+.contactcard{   
+    border-radius: 13px;
+    box-shadow: 1px 1px 16px rgba(0,0,0,0.3);
+    background-color:white;
+    color: rgb(22, 22, 22);   
+    height:40vh;
+    width:60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: auto;
+    margin-top:40px;
+    padding:15px 10px;
+}
+.contactcard textarea{
+    margin: auto;
+    width:80%;
+    height: 100px;
+    border-radius:19px;
+    border:none;
+    padding:13px;
+    background-color:rgb(225, 225, 255);
+    resize: none;
+}
+.contactcard textarea:hover{
+    outline:none;
+    box-shadow: 0px 1px 7px rgba(0,0,0,0.5);
+}
+.contactcard textarea:focus{
+    outline: none;
+}
+.contactinput{
+    width:100%;
+}
+.Send{
+    width:80%;
+    height:20px;
+    padding: 7px;
+    border-radius:17px;
+    background-color:blueviolet;
+    color: white;
+    font-size: 19px;
+}
+.Send:hover{
+    box-shadow: 0px 1px 7px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.contactcard input{
+    margin: auto;
+    width:80%;
+    height: 37px;
+    border-radius:19px;
+    border:none;
+    padding:0px 13px;
+    background-color:rgb(225, 225, 255);
+}
+.contactcard input:hover{
+    outline:none;
+    box-shadow: 0px 1px 7px rgba(0,0,0,0.5);
+}
+.contactcard input:focus{
+    outline: none;
+}
+.contactcardheading{
+    font-size:40px
+}

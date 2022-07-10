@@ -1,0 +1,44 @@
+.skill{
+    position: relative;
+    text-align: center;
+    height:100vh;
+}
+.title{
+   font-weight: 200;
+}
+.title h1{
+    font-size:10vh;
+    font-weight:300;
+    margin:20px;
+}
+.title p{
+    font-size: 3vh;
+    margin:auto;
+}
+.skillcontainer{
+    height:60vh;
+    display: flex;
+    justify-content: center;
+}
+.skillgroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+}
+
+.g1{
+    animation:appearleft 0.5s linear 1.5s 1 forwards;
+}
+.g2{
+    animation:appearleft 1s linear 1s 1 forwards;
+}
+.g3{
+    animation:appear 1.5s linear 0.5s 1 forwards;
+}
+.g4{
+    animation:appearright 1s linear 1s 1 forwards;
+}
+.g5{
+    animation:appearright 0.5s linear 1.5s 1 forwards;
+}

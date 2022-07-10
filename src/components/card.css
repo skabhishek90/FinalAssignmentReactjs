@@ -1,0 +1,23 @@
+.skillcard{   
+    border-radius: 13px;
+    box-shadow: 1px 1px 16px rgba(0,0,0,0.3);
+    background-color:white;
+    color: rgb(22, 22, 22);   
+    height:14vh;
+    width:28vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin: 10px;
+    padding: 10px;
+}
+.skillcard h1{
+    font-size:2.5vh;
+    font-weight: 200;
+}
+.skillcard img{
+    height: 80%;
+    aspect-ratio:1;
+    margin: 5px 5px;
+}
